@@ -35,9 +35,9 @@ graph LR
 │                                     │
 │  ▸ NULL checks                      │
 │  ▸ REGEXP_LIKE (email format)       │
-│  ▸ Range checks (amount > 0)       │
-│  ▸ Date checks (no future dates)   │
-│  ▸ Lookup validation (country/status)│
+│  ▸ Range checks (amount > 0)        │
+│  ▸ Date checks (no future dates)    │
+│  ▸ Lookup validation(country/status)│
 │  ▸ Uniqueness (duplicate order IDs) │
 │  ▸ Placeholder detection (TEST/N/A) │
 │  ▸ OBJECT_CONSTRUCT (JSON capture)  │
@@ -45,10 +45,10 @@ graph LR
 │          │                          │
 │    PASSED│                   FAILED │
 │          ▼                     ▼    │
-│  ┌──────────────┐  ┌──────────────┐│
-│  │CLEAN.CUSTOMER│  │ERRORS.FAILED ││
-│  │_ORDERS       │  │_RECORDS      ││
-│  └──────────────┘  └──────────────┘│
+│  ┌──────────────┐  ┌──────────────┐ │
+│  │CLEAN.CUSTOMER│  │ERRORS.FAILED │ │
+│  │_ORDERS       │  │_RECORDS      │ │
+│  └──────────────┘  └──────────────┘ │
 │                                     │
 │          ┌──────────────┐           │
 │          │ERRORS.       │           │
