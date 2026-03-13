@@ -153,7 +153,7 @@ phase_2_intermediate_dq/
 
 Phase 2 wraps checks into a procedure, but the rules are still **hardcoded inside the procedure**. If you want to add a new rule, you have to edit the code.
 
-**Phase 3** solves this: rules move to a **configuration table**. The engine reads rules at runtime. Zero code changes to add/modify rules.
+**Phase 3** WIP: .
 
 ---
 
