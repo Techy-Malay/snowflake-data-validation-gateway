@@ -122,8 +122,6 @@ graph TD
 ```
 phase_2_intermediate_dq/
 ├── README.md
-├── LINKEDIN_POST.md
-├── LinkedIn_Carousel.md
 ├── sql/
 │   └── DQ_LEVEL_2_INTERMEDIATE.sql
 └── doc/
